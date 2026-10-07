@@ -1,0 +1,13 @@
+.git
+.env
+.env.*
+__pycache__
+*.py[cod]
+**/__pycache__
+**/*.py[cod]
+.venv
+logs
+*.log
+*.pem
+*.key
+*token*

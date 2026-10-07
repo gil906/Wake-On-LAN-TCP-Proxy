@@ -1,0 +1,6 @@
+services:
+  wake-proxy:
+    build: .
+    network_mode: host
+    env_file: .env
+    restart: unless-stopped
