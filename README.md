@@ -38,7 +38,7 @@ sequenceDiagram
     Proxy->>Target: Probe service port
     Note over Proxy,Target: If not reachable
     Proxy->>Target: UDP Wake-on-LAN packet
-    Note over Target: Boot or resume; application starts
+    Note over Target: Boot or resume and start the application
     Proxy->>Target: Repeat TCP readiness probe
     Target-->>Proxy: Port accepts connections
     Proxy->>Target: Forward client bytes
